@@ -1,0 +1,253 @@
+body{
+    background-color:#fff;
+    
+    font-family: 'Poppins', sans-serif;
+    h1{
+        color:#e74c3c;
+        font-weight:bold;
+    }
+    p{
+        color:#000;
+        font-size: 20px;
+    }
+    h3{
+        color: #e67e22;
+    }
+}
+
+.start{
+    background-color: #FFE699;
+}
+
+.nav-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight:normal ;
+
+    &:hover{
+        font-weight:bold;
+    }
+}
+
+.btn-getsearch{
+    background-color: #e67e22;
+    font-weight:bold;
+    &:hover{
+        background-color: #f39c12;
+        color: #fff;
+    }
+}
+
+.btn-getstart{
+    background-color: #e67e22;
+    font-weight:bold;
+    margin-right: 10px;
+    border-radius: 20px;
+
+
+    &:hover{
+        background-color: #f39c12;
+        color: #fff;
+    }
+}
+
+.decriptionHome{
+    margin-top: 200px;
+}
+
+@media (max-width : 580px) {
+    .decriptionHome{
+        margin-top: 0px;
+    }
+    
+}
+
+.img-buburayam{
+    width: 550px;
+    height: 550px;
+}
+
+@media (max-width : 1000px){
+    .img-buburayam{
+        width: auto;
+        height: auto;
+    }
+}
+
+.img-howitmade{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.ingredient{
+    margin-top: 50px;
+    .materials{
+        margin-top:10px;
+    
+        .col{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+}
+
+.review{
+    margin-top: 80px;
+
+    .card{
+        margin-left: 20px ;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .img-review{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .score{
+        color: gold;
+    }
+
+    .card-body{
+        p{
+            font-size: 15px;
+        }
+        .score{
+            color: #f1c40f;
+        }
+    }
+}
+
+.menu-start{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.menu-highlight{
+    .info-menu{
+        margin-left: 30px;
+        margin-top: 200px;
+    }
+    @media (max-width :600px) {
+        .info-menu{
+            margin-left:0;
+            margin-top: 0;
+            ;
+        }
+    }
+    .btn-ordernow{
+        background-color: #e67e22;
+
+        font-weight:bold;
+        border-radius: 5px;
+        a{
+            text-decoration: none ;
+            color: black;
+            &:hover{
+                background-color: #f39c12;
+                color: #fff;
+            }
+        }
+    
+    
+        &:hover{
+            background-color: #f39c12;
+            color: #fff;
+        }
+    }
+}
+
+.menu-highlight{
+    background-color: #FFE699;
+    .swiper-slide{
+        background-color: #FFE699;
+    }
+}
+
+.all-menu{
+    margin-top: 50px;
+
+    .card{
+        margin: 10px;
+    }
+    .btn-ordernow{
+        background-color: #e67e22;
+
+        font-weight:bold;
+        border-radius: 5px;
+    
+    
+        &:hover{
+            background-color: #f39c12;
+            color: #fff;
+        }
+    }
+    .score{
+        color: #f1c40f;
+    }
+
+    .btn-gofood{
+        background-color:#00aa13 ;
+        font-weight: bold;
+        border-radius: 5px;
+        a{
+            text-decoration: none ;
+            color: black;
+            &:hover{
+                background-color: #8cd50d;
+                color: #fff;
+            }
+        }
+
+        &:hover{
+            background-color: #8cd50d;
+            color: #fff;
+        }
+    }
+}
+
+header{
+    height: 700px;
+    background-image: url('../images/lokasibuburakds.png');
+    background-size: cover;
+    margin-top: -250px;
+
+}
+
+.location{
+    margin-top: -100px;
+}
